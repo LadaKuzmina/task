@@ -3,6 +3,7 @@ import "../index.css"
 import FormField from "./FormField";
 import QuestionAuthorization from "./QuestionAuthorization";
 import {useState} from "react";
+import ButtonAuthorization from "./ButtonAuthorization";
 
 const FormAutorization = ({question, link, wordAuthorization, wordButton}: {
     question: string,
@@ -19,7 +20,7 @@ const FormAutorization = ({question, link, wordAuthorization, wordButton}: {
             <form>
                 <FormField type="email" name='Email' placeholderName="Enter your email"/>
                 <FormField type={show ? "text" : "password"} name='Пароль' placeholderName="•••••••••••"/>
-                <button type="button" className="enter">{wordButton}</button>
+                <ButtonAuthorization name="enter" wordButton={wordButton}/>
                 <QuestionAuthorization question={question} link={link}
                                        wordAuthorization={wordAuthorization}></QuestionAuthorization>
                 <button className="eye" onClick={handleShow} type="button">

@@ -5,6 +5,9 @@ import "./index.css"
 import {createRoot} from "react-dom/client";
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
+import RecoveryPassword from "./components/RecoveryPassword";
+import Header from "./components/Header";
+import List from "./components/List";
 
 const App = () => {
     return (
@@ -13,6 +16,8 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<LogIn/>}/>
                     <Route path="sign/*" element={<SignUp/>}/>
+                    <Route path="recovery/*" element={<RecoveryPassword/>}/>
+                    <Route path="header/*" element={<List/>}/>
                 </Routes>
             </BrowserRouter>
         </>
