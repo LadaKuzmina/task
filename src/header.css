@@ -1,24 +1,3 @@
-@font-face {
-    font-family: 'geometria_bold';
-    src: local('geometria_bold'),
-    url("../fonts/geometria_bold.woff2") format("woff2"),
-    url("../fonts/geometria_bold.woff") format("woff")
-}
-
-@font-face {
-    font-family: 'geometria_medium';
-    src: local('geometria_medium'),
-    url("../fonts/geometria_medium.woff2") format("woff2"),
-    url("../fonts/geometria_medium.woff") format("woff")
-}
-
-@font-face {
-    font-family: 'geometria_light';
-    src: local('geometria_light'),
-    url("../fonts/geometria_light.woff2") format("woff2"),
-    url("../fonts/geometria_light.woff") format("woff")
-}
-
 .circleExternal {
     height: 42px;
     width: 42px;
@@ -32,8 +11,8 @@
 }
 
 .circleInternal {
-    height: 23.02px;
-    width: 23.02px;
+    height: 23px;
+    width: 23px;
     background: #ffffff;
     border: 5px solid #49C2E8;
     border-radius: 50%;
