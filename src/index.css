@@ -52,15 +52,16 @@
     font-family: "geometria_light";
     /*color: #cbcbcb;*/
     /*padding: 0 55px;*/
+    text-indent: 55px;
 }
 
-.search::placeholder {
-    padding: 0 55px;
-}
+/*.search::placeholder {*/
+/*    padding: 0 55px;*/
+/*}*/
 
-.search::-webkit-input-placeholder {
-    padding: 0 55px;
-}
+/*.search::-webkit-input-placeholder {*/
+/*    padding: 0 55px;*/
+/*}*/
 
 .imageMagnifier {
     position: absolute;

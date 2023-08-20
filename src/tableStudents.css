@@ -4,7 +4,7 @@
     position: absolute;
     left: 130px;
     top: 322px;
-    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
 }
 
@@ -38,13 +38,18 @@
     border-radius: 50%;
 }
 
-.delite {
+.delete {
     height: 30px;
     width: 30px;
-    box-shadow: 0 0 16.3715px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    border-color: transparent;
+    background: white;
 }
-/*.delite img{*/
-/*    width: 14px;*/
-/*    height: 14px;*/
-/*}*/
+
+.delete img {
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    cursor: pointer;
+}

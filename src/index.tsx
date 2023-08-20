@@ -6,7 +6,6 @@ import {createRoot} from "react-dom/client";
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
 import RecoveryPassword from "./components/RecoveryPassword";
-import Header from "./components/Header";
 import List from "./components/List";
 
 const App = () => {
