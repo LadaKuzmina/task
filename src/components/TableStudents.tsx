@@ -1,23 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Row from "./Row"
 import '../tableStudents.css'
 
-const TableStudents = () => {
-    const [posts, setPosts] = useState([]);
-    useEffect(() => {
-        fetch("https://front-assignment-api.2tapp.cc/api/persons")
-            .then((response) => response.json())
-            .then((data) => {
-                setPosts(data);
-                console.log(data)
-            })
-            .catch((err) => {
-                console.log(err.message);
-            });
-    }, []);
-
-    let data = JSON.parse(JSON.stringify(posts, null, 2));
-    if (data.students !== undefined) {
+const TableStudents = ({filteredStudent}: any) => {
+    if (filteredStudent.length !== 0) {
         return (
             <div className="listStudents">
                 <table>
@@ -31,9 +17,7 @@ const TableStudents = () => {
                         <th scope="col" colSpan={2}></th>
                     </tr>
                     </thead>
-                    {data.students.map(function (student: any) {
-                        console.log("0")
-                        console.log(student)
+                    {filteredStudent.map(function (student: any) {
                         return <Row student={student}/>
                     })}
                 </table>

@@ -9,7 +9,7 @@ const Row = (student: any) => {
     }
 
     function deleteStudent(id: number) {
-        document.getElementById(id.toString())!.remove()
+        document.getElementById(id.toString())!.remove();
     }
 
     student = student.student

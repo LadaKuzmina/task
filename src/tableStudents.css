@@ -1,6 +1,7 @@
 .listStudents table {
     width: 1180px;
-    height: 615px;
+    /*height: 615px;*/
+    white-space: nowrap;
     position: absolute;
     left: 130px;
     top: 322px;
@@ -23,6 +24,7 @@
     font-size: 15px;
     line-height: 20px;
     text-align: center;
+    padding: 10px;
 }
 
 .listStudents .avatar img {

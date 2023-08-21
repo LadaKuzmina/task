@@ -1,11 +1,15 @@
 import React from 'react';
 import "../index.css"
 
-const Search = () => {
+const Search = ({setValue}: { setValue: any }) => {
     return (
         <form className="searchName">
             <img src={require("../icons/magnifier.png")} alt="magnifier" className="imageMagnifier"/>
-            <input type="text" placeholder="Поиск по имени" className="search"/>
+            <input type="text" placeholder="Поиск по имени" className="search"
+                   onChange={(event) => {
+                       setValue(event.target.value)
+                   }}
+            />
         </form>
     );
 };
