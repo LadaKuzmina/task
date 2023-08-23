@@ -29,7 +29,7 @@ const List = () => {
             <Header/>
             <h1 className="titlePage">Студенты</h1>
             <Search setValue={setValue}/>
-            <Dropdown selected={selected} setSelected={setSelected}/>
+            <Dropdown selected={selected} setSelected={setSelected} data={data}/>
             <TableStudents filteredStudent={filteredStudent}/>
         </div>
     );

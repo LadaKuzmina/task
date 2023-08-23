@@ -55,3 +55,157 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media (min-width: 1200px) {
+    .cardsStudents {
+        display: none;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cardsStudents {
+        display: none;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .cardsStudents {
+        display: none;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .cardsStudents {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .listStudents table {
+        display: none;
+    }
+
+    .cardsStudents {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 20px;
+        top: 239px;
+        margin-top: 20px;
+    }
+
+    .studentCard {
+        width: 335px;
+        height: 170px;
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    .studentCard .avatar img {
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        border-radius: 300px;
+        width: 40px;
+        height: 40px;
+        /*position: relative;*/
+        /*top: 16px;*/
+        /*left: 16px;*/
+    }
+
+    .avatar {
+        position: relative;
+        top: 16px;
+        left: 16px;
+    }
+
+    .studentName {
+        position: relative;
+        height: 20px;
+        left: 22.99%;
+        top: -30px;
+        font-family: 'geometria_medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .favoriteColor {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        position: relative;
+        left: 77px;
+        top: -44px;
+    }
+
+    .starRating {
+        position: relative;
+        top: -97px;
+    }
+
+    .starRating img {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        left: 102px;
+        top: -10px;
+    }
+
+    .rating {
+        position: relative;
+        left: 122px;
+        top: -30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: "geometria_medium";
+    }
+
+    .list {
+        position: relative;
+        left: 53px;
+        top: -83px;
+    }
+
+    .delete {
+        height: 30px;
+        width: 30px;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border-color: transparent;
+        background: white;
+        position: relative;
+        left: 287px;
+        top: -76px;
+    }
+
+    .list li {
+        color: #49C2E8;
+        margin-top: 5px;
+    }
+
+    .list li div {
+        color: black;
+        font-family: "geometria_light";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .line {
+        border: 1px solid #E5E5E5;
+        position: relative;
+        top: -70px;
+    }
+}

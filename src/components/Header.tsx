@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="frame">
             <Circle/>
-            <NameProjectAuthor nameProject="STUDENTS by" userName="LadaKuzmina"/>
+            <NameProjectAuthor nameProject="STUDENTS" by="by" userName="LadaKuzmina"/>
         </div>
     );
 };
