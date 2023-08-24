@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Row from "./Row"
 import '../tableStudents.css'
 import Card from "./Card";
@@ -23,7 +23,7 @@ const TableStudents = ({filteredStudent}: any) => {
                             <th scope="col"></th>
                             <th scope="col"></th>
                             <th scope="col"></th>
-                            <th scope="col" colSpan={2} style={{width:"5%"}}></th>
+                            <th scope="col" colSpan={2} style={{width: "5%"}}></th>
                         </tr>
                         </thead>
                         {filteredStudent.map(function (student: any) {

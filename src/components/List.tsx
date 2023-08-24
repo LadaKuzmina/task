@@ -23,14 +23,29 @@ const List = () => {
     const filteredStudent: Array<object> = data.students !== undefined ? data.students.filter(function (student: any) {
         return student.name.toLowerCase().includes(value)
     }) : [];
-    const [selected, setSelected] = useState("Имя Я-А")
+    const [selected, setSelected] = useState("Имя А-Я");
+
+    function comparerAlphabetic(student1: any, student2: any) {
+        if (student1.name < student2.name) return -1;
+        else if (student1.name > student2.name) return 1;
+        return 0;
+    }
+
+    function comparerAlphabeticEnd(student1: any, student2: any) {
+        if (student1.name > student2.name) return -1;
+        else if (student1.name < student2.name) return 1;
+        return 0;
+    }
+
+    const [comparer, setComparer] = useState(() => comparerAlphabetic);
+
     return (
         <div>
             <Header/>
             <h1 className="titlePage">Студенты</h1>
             <Search setValue={setValue}/>
-            <Dropdown selected={selected} setSelected={setSelected} data={data}/>
-            <TableStudents filteredStudent={filteredStudent}/>
+            <Dropdown selected={selected} setSelected={setSelected} setComparer={setComparer}/>
+            <TableStudents filteredStudent={filteredStudent.sort(comparer)}/>
         </div>
     );
 };
