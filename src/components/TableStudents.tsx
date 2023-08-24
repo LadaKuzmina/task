@@ -8,15 +8,22 @@ const TableStudents = ({filteredStudent}: any) => {
         return (
             <>
                 <div className="listStudents">
+                    <div className="headingsTable">
+                        <div className="fioHeading">ФИО</div>
+                        <div className="specializationHeading">Специальность</div>
+                        <div className="groupHeading">Группа</div>
+                        <div className="ageHeading">Возраст</div>
+                        <div className="ratingHeading">Рейтинг</div>
+                    </div>
                     <table>
                         <thead>
                         <tr>
-                            <th scope="col" colSpan={2}>ФИО</th>
-                            <th scope="col">Специальность</th>
-                            <th scope="col">Группа</th>
-                            <th scope="col">Возраст</th>
-                            <th scope="col">Рейтинг</th>
-                            <th scope="col" colSpan={2}></th>
+                            <th scope="col" colSpan={2} style={{width: "30%"}}></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col" colSpan={2} style={{width:"5%"}}></th>
                         </tr>
                         </thead>
                         {filteredStudent.map(function (student: any) {

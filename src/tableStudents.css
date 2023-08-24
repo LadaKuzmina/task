@@ -7,6 +7,8 @@
     top: 322px;
     box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
+    background: transparent;
+    margin-top: 44px;
 }
 
 .listStudents thead {
@@ -56,37 +58,537 @@
     cursor: pointer;
 }
 
-@media (min-width: 1200px) {
+.headingsTable {
+    display: flex;
+    flex-direction: row;
+    font-family: "geometria_light";
+    position: absolute;
+    width: 1000px;
+    height: 24px;
+    left: 210px;
+    top: 304px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.fioHeading {
+    position: relative;
+    left: -77px;
+}
+
+.specializationHeading {
+    position: relative;
+    left: 30px;
+}
+
+.groupHeading {
+    position: relative;
+    left: 35px;
+}
+
+.ageHeading {
+    position: relative;
+    left: 40px;
+}
+
+.ratingHeading {
+    position: relative;
+    left: 45px;
+}
+
+.cardsStudents {
+    display: none;
+}
+
+@media (max-width: 1350px) {
     .cardsStudents {
         display: none;
+    }
+
+
+    /*.listStudents table {*/
+    /*    width: 1180px;*/
+    /*    !*height: 615px;*!*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 70px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 1000px;*/
+    /*    height: 24px;*/
+    /*    left: 149px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
+    .listStudents table {
+        width: 1050px;
+        /*height: 615px;*/
+        white-space: nowrap;
+        position: absolute;
+        left: 70px;
+        top: 322px;
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        background: transparent;
+        margin-top: 44px;
+    }
+
+    .headingsTable {
+        display: flex;
+        flex-direction: row;
+        font-family: "geometria_light";
+        position: absolute;
+        width: 700px;
+        height: 24px;
+        left: 141px;
+        top: 304px;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-top: 32px;
+    }
+
+    .fioHeading {
+        position: relative;
+        left: -30px;
+    }
+
+    .specializationHeading {
+        position: relative;
+        left: 80px;
+    }
+
+    .groupHeading {
+        position: relative;
+        left: 115px;
+    }
+
+    .ageHeading {
+        position: relative;
+        left: 155px;
+    }
+
+    .ratingHeading {
+        position: relative;
+        left: 200px;
     }
 }
 
-/* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+/*}*/
+@media (max-width: 1200px) {
     .cardsStudents {
         display: none;
     }
 
+    /*.listStudents table {*/
+    /*    width: 1050px;*/
+    /*    !*height: 615px;*!*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 70px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 1000px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
+    /*.fioHeading {*/
+    /*    position: relative;*/
+    /*    left: -77px;*/
+    /*}*/
+    /*.specializationHeading {*/
+    /*    position: relative;*/
+    /*    left: -5px;*/
+    /*}*/
+    /*.groupHeading {*/
+    /*    position: relative;*/
+    /*    left: -30px;*/
+    /*}*/
+    /*.ageHeading {*/
+    /*    position: relative;*/
+    /*    left: -40px;*/
+    /*}*/
+    /*.ratingHeading {*/
+    /*    position: relative;*/
+    /*    left: -45px;*/
+    /*}*/
+    .listStudents table {
+        width: 845px;
+        /*height: 615px;*/
+        white-space: nowrap;
+        position: absolute;
+        left: 70px;
+        top: 322px;
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        background: transparent;
+        margin-top: 44px;
+    }
+
+    .headingsTable {
+        display: flex;
+        flex-direction: row;
+        font-family: "geometria_light";
+        position: absolute;
+        width: 700px;
+        height: 24px;
+        left: 141px;
+        top: 304px;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-top: 32px;
+    }
+
+    .fioHeading {
+        position: relative;
+        left: -50px;
+    }
+
+    .specializationHeading {
+        position: relative;
+        left: 10px;
+    }
+
+    .groupHeading {
+        position: relative;
+        left: 0;
+    }
+
+    .ageHeading {
+        position: relative;
+        left: 15px;
+    }
+
+    .ratingHeading {
+        position: relative;
+        left: 20px;
+    }
 }
 
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+/*!* Portrait tablets and medium desktops *!*/
+@media (max-width: 992px) {
     .cardsStudents {
         display: none;
     }
 
+    /*.listStudents table {*/
+    /*    width: 845px;*/
+    /*    !*height: 615px;*!*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 70px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 700px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
+    /*.fioHeading {*/
+    /*    position: relative;*/
+    /*    left: -50px;*/
+    /*}*/
+    /*.specializationHeading {*/
+    /*    position: relative;*/
+    /*    left: 10px;*/
+    /*}*/
+    /*.groupHeading {*/
+    /*    position: relative;*/
+    /*    left: 0;*/
+    /*}*/
+    /*.ageHeading {*/
+    /*    position: relative;*/
+    /*    left: 15px;*/
+    /*}*/
+    /*.ratingHeading {*/
+    /*    position: relative;*/
+    /*    left: 20px;*/
+    /*}*/
+    .listStudents table {
+        width: 660px;
+        /*height: 615px;*/
+        white-space: nowrap;
+        position: absolute;
+        left: 55px;
+        top: 322px;
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        background: transparent;
+        margin-top: 44px;
+    }
+
+    .headingsTable {
+        display: flex;
+        flex-direction: row;
+        font-family: "geometria_light";
+        position: absolute;
+        width: 500px;
+        height: 24px;
+        left: 141px;
+        top: 304px;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-top: 32px;
+    }
+
+    .fioHeading {
+        position: relative;
+        left: -35px;
+    }
+
+    .specializationHeading {
+        position: relative;
+        left: 10px;
+    }
+
+    .groupHeading {
+        position: relative;
+        left: 0;
+    }
+
+    .ageHeading {
+        position: relative;
+        left: 15px;
+    }
+
+    .ratingHeading {
+        position: relative;
+        left: 10px;
+    }
 }
 
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-    .cardsStudents {
+/*!* Portrait tablets and small desktops *!*/
+@media (max-width: 768px) {
+    .headingsTable {
         display: none;
     }
 
+    .listStudents table {
+        display: none;
+    }
+
+    .cardsStudents {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 30%;
+        top: 239px;
+        margin-top: 20px;
+    }
+
+    .studentCard {
+        width: 335px;
+        height: 170px;
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    .studentCard .avatar img {
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        border-radius: 300px;
+        width: 40px;
+        height: 40px;
+        /*position: relative;*/
+        /*top: 16px;*/
+        /*left: 16px;*/
+    }
+
+    .avatar {
+        position: relative;
+        top: 16px;
+        left: 16px;
+    }
+
+    .studentName {
+        position: relative;
+        height: 20px;
+        left: 22.99%;
+        top: -30px;
+        font-family: 'geometria_medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        width: 240px;
+    }
+
+    .favoriteColor {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        position: relative;
+        left: 77px;
+        top: -44px;
+    }
+
+    .starRating {
+        position: relative;
+        top: -97px;
+    }
+
+    .starRating img {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        left: 102px;
+        top: -10px;
+    }
+
+    .rating {
+        position: relative;
+        left: 122px;
+        top: -30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: "geometria_medium";
+        width: 40px;
+    }
+
+    .list {
+        position: relative;
+        left: 53px;
+        top: -83px;
+        width: 240px;
+    }
+
+    .delete {
+        height: 30px;
+        width: 30px;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border-color: transparent;
+        background: white;
+        position: relative;
+        left: 287px;
+        top: -76px;
+    }
+
+    .list li {
+        color: #49C2E8;
+        margin-top: 5px;
+        width: 240px;
+    }
+
+    .list li div {
+        color: black;
+        font-family: "geometria_light";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        width: 240px;
+    }
+
+    .line {
+        border: 1px solid #F2F2F2;
+        position: relative;
+        top: -61px;
+    }
+
+    /*.cardsStudents {*/
+    /*    display: none;*/
+    /*}*/
+    /*.listStudents table {*/
+    /*    width: 660px;*/
+    /*    !*height: 615px;*!*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 55px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 500px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
+    /*.fioHeading {*/
+    /*    position: relative;*/
+    /*    left: -35px;*/
+    /*}*/
+    /*.specializationHeading {*/
+    /*    position: relative;*/
+    /*    left: 10px;*/
+    /*}*/
+    /*.groupHeading {*/
+    /*    position: relative;*/
+    /*    left: 0;*/
+    /*}*/
+    /*.ageHeading {*/
+    /*    position: relative;*/
+    /*    left: 15px;*/
+    /*}*/
+    /*.ratingHeading {*/
+    /*    position: relative;*/
+    /*    left: 10px;*/
+    /*}*/
 }
 
 @media (max-width: 480px) {
+    .headingsTable {
+        display: none;
+    }
+
     .listStudents table {
         display: none;
     }
@@ -136,6 +638,7 @@
         line-height: 20px;
         display: flex;
         align-items: center;
+        width: 240px;
     }
 
     .favoriteColor {
@@ -169,12 +672,14 @@
         font-size: 12px;
         line-height: 15px;
         font-family: "geometria_medium";
+        width: 40px;
     }
 
     .list {
         position: relative;
         left: 53px;
         top: -83px;
+        width: 240px;
     }
 
     .delete {
@@ -192,6 +697,7 @@
     .list li {
         color: #49C2E8;
         margin-top: 5px;
+        width: 240px;
     }
 
     .list li div {
@@ -201,11 +707,12 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
+        width: 240px;
     }
 
     .line {
-        border: 1px solid #E5E5E5;
+        border: 1px solid #F2F2F2;
         position: relative;
-        top: -70px;
+        top: -61px;
     }
 }

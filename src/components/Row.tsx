@@ -21,7 +21,7 @@ const Row = (student: any) => {
             }}>{student.name}</td>
             <td>{student.specialty}</td>
             <td>{student.group}</td>
-            <td>{_calculateAge(student.birthday)}</td>
+            <td style={{textAlign: "left"}}>{_calculateAge(student.birthday)}</td>
             <td>{student.rating}</td>
             <td>
                 <div className="favoriteColor" style={{

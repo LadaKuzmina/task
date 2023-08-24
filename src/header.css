@@ -8,6 +8,7 @@
     position: absolute;
     /*left: 9.2%;*/
     top: 3.31%;
+    left: 123px;
 }
 
 .circleInternal {
@@ -19,13 +20,14 @@
     transform: translate(-50%, 0);
     position: absolute;
     top: 25%;
+    left: 123px;
 }
 
 .circle {
     position: absolute;
     width: 42px;
     height: 42px;
-    left: 123px;
+    left: 25px;
     top: 22px;
 }
 
@@ -39,6 +41,10 @@
     width: 334px;
 }
 
+.by {
+    margin-left: 8px;
+}
+
 .author p {
     font-family: 'geometria_medium';
     font-style: normal;
@@ -49,13 +55,72 @@
 
 .userName {
     color: #49C2E8;
-    margin-left: 7px;
+    margin-left: 8px;
 }
 
 .frame {
     height: 86px;
     box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .circle {
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        left: 29px;
+        top: 21px;
+    }
+
+    .circleExternal {
+        height: 42px;
+        width: 42px;
+        background: #ffffff;
+        border: 5px solid #49C2E8;
+        border-radius: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+        left: 29px;
+        top: 3.31%;
+    }
+
+    .circleInternal {
+        height: 23px;
+        width: 23px;
+        background: #ffffff;
+        border: 5px solid #49C2E8;
+        border-radius: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+        top: 25%;
+        left: 29px;
+    }
+
+    .userName {
+        display: none;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        /*left: 97px;*/
+        left: 23px;
+        margin-left: 23px;
+        top: 48px;
+        width: 259px;
+    }
+
+    .author p {
+        position: absolute;
+    }
+
+    .by {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
