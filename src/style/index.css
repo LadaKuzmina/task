@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'geometria_bold';
+    src: local('geometria_bold'),
+    url("../../fonts/geometria_bold.woff2") format("woff2"),
+    url("../../fonts/geometria_bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'geometria_medium';
+    src: local('geometria_medium'),
+    url("../../fonts/geometria_medium.woff2") format("woff2"),
+    url("../../fonts/geometria_medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'geometria_light';
+    src: local('geometria_light'),
+    url("../../fonts/geometria_light.woff2") format("woff2"),
+    url("../../fonts/geometria_light.woff") format("woff")
+}
+
+.body {
+    width: 100%;
+}
+
+.titlePage {
+    position: absolute;
+    width: 302px;
+    height: 35px;
+    left: 130px;
+    top: 160px;
+    font-family: 'geometria_medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.searchName {
+    position: absolute;
+    width: 980px;
+    height: 48px;
+    left: 130px;
+    top: 242px;
+}
+
+.search {
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    width: 980px;
+    height: 48px;
+    border: transparent;
+    font-size: 16px;
+    font-family: "geometria_light";
+    /*color: #cbcbcb;*/
+    /*padding: 0 55px;*/
+    text-indent: 55px;
+}
+
+.imageMagnifier {
+    position: absolute;
+    width: 18.52px;
+    left: 20px;
+    top: 31.25%;
+    bottom: 30.16%;
+}
+
+@media (max-width: 1350px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 70px;
+        top: 160px;
+        font-family: 'geometria_medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 850px;
+        height: 48px;
+        left: 70px;
+        top: 242px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 850px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 70px;
+        top: 160px;
+        font-family: 'geometria_medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 600px;
+        height: 48px;
+        left: 70px;
+        top: 242px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 600px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+    }
+}
+
+@media (max-width: 992px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 55px;
+        top: 160px;
+        font-family: 'geometria_medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 450px;
+        height: 48px;
+        left: 55px;
+        top: 242px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 450px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 20px;
+        top: 124px;
+        font-family: 'geometria_medium';
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 266px;
+        height: 48px;
+        left: 20px;
+        top: 181px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 266px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+        margin-top: 22px;
+    }
+
+    .imageMagnifier {
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 20px;
+        top: 124px;
+        font-family: 'geometria_medium';
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 266px;
+        height: 48px;
+        left: 20px;
+        top: 181px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 266px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+        margin-top: 22px;
+    }
+
+    .imageMagnifier {
+        margin-top: 22px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .titlePage {
+        position: absolute;
+        width: 302px;
+        height: 35px;
+        left: 20px;
+        top: 124px;
+        font-family: 'geometria_medium';
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .searchName {
+        position: absolute;
+        width: 266px;
+        height: 48px;
+        left: 20px;
+        top: 181px;
+    }
+
+    .search {
+        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        width: 266px;
+        height: 48px;
+        border: transparent;
+        font-size: 16px;
+        font-family: "geometria_light";
+        text-indent: 55px;
+        margin-top: 22px;
+    }
+
+    .imageMagnifier {
+        margin-top: 22px;
+    }
+}
