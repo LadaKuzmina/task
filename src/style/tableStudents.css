@@ -1,13 +1,13 @@
 .listStudents table {
-    width: 1180px;
+    width: 80%;
     white-space: nowrap;
     position: absolute;
-    left: 130px;
     top: 322px;
     box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
     background: transparent;
     margin-top: 44px;
+    left: 130px;
 }
 
 .listStudents thead {
@@ -62,7 +62,7 @@
     flex-direction: row;
     font-family: "geometria_light";
     position: absolute;
-    width: 1000px;
+    width: 68%;
     height: 24px;
     left: 210px;
     top: 304px;
@@ -106,33 +106,32 @@
         display: none;
     }
 
-    .listStudents table {
-        width: 1050px;
-        /*height: 615px;*/
-        white-space: nowrap;
-        position: absolute;
-        left: 70px;
-        top: 322px;
-        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
-        border-radius: 6px;
-        background: transparent;
-        margin-top: 44px;
-    }
-
-    .headingsTable {
-        display: flex;
-        flex-direction: row;
-        font-family: "geometria_light";
-        position: absolute;
-        width: 700px;
-        height: 24px;
-        left: 141px;
-        top: 304px;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        margin-top: 32px;
-    }
+    /*.listStudents table {*/
+    /*    width: 1050px;*/
+    /*    !*height: 615px;*!*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 70px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 700px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
 
     .fioHeading {
         position: relative;
@@ -165,32 +164,31 @@
         display: none;
     }
 
-    .listStudents table {
-        width: 845px;
-        white-space: nowrap;
-        position: absolute;
-        left: 70px;
-        top: 322px;
-        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
-        border-radius: 6px;
-        background: transparent;
-        margin-top: 44px;
-    }
-
-    .headingsTable {
-        display: flex;
-        flex-direction: row;
-        font-family: "geometria_light";
-        position: absolute;
-        width: 700px;
-        height: 24px;
-        left: 141px;
-        top: 304px;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        margin-top: 32px;
-    }
+    /*.listStudents table {*/
+    /*    width: 845px;*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 70px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 700px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
 
     .fioHeading {
         position: relative;
@@ -223,32 +221,31 @@
         display: none;
     }
 
-    .listStudents table {
-        width: 660px;
-        white-space: nowrap;
-        position: absolute;
-        left: 55px;
-        top: 322px;
-        box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
-        border-radius: 6px;
-        background: transparent;
-        margin-top: 44px;
-    }
-
-    .headingsTable {
-        display: flex;
-        flex-direction: row;
-        font-family: "geometria_light";
-        position: absolute;
-        width: 500px;
-        height: 24px;
-        left: 141px;
-        top: 304px;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        margin-top: 32px;
-    }
+    /*.listStudents table {*/
+    /*    width: 660px;*/
+    /*    white-space: nowrap;*/
+    /*    position: absolute;*/
+    /*    left: 55px;*/
+    /*    top: 322px;*/
+    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
+    /*    border-radius: 6px;*/
+    /*    background: transparent;*/
+    /*    margin-top: 44px;*/
+    /*}*/
+    /*.headingsTable {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    font-family: "geometria_light";*/
+    /*    position: absolute;*/
+    /*    width: 500px;*/
+    /*    height: 24px;*/
+    /*    left: 141px;*/
+    /*    top: 304px;*/
+    /*    align-items: center;*/
+    /*    flex-wrap: nowrap;*/
+    /*    justify-content: space-evenly;*/
+    /*    margin-top: 32px;*/
+    /*}*/
 
     .fioHeading {
         position: relative;
