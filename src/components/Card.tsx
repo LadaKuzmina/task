@@ -1,26 +1,12 @@
 import React from 'react';
+import {Student} from "../type";
+import {_calculateAge} from "../scripts/numberOfYears";
+import {deleteStudent} from "../scripts/deleteStudent";
+import {getAgeWord} from "../scripts/getAgeWord";
 
-const Card = (student: any) => {
-    function _calculateAge(birthday_string: string) {
-        let birthday = new Date(birthday_string);
-        let ageDifMs = Date.now() - birthday.getTime();
-        let ageDate = new Date(ageDifMs);
-        return Math.abs(ageDate.getUTCFullYear() - 1970);
-    }
-
-    function deleteStudent(id: number) {
-        document.getElementById(id.toString())!.remove();
-    }
-
-    function ageWord(age: number) {
-        if (age % 10 === 1) return age + " год";
-        if (age % 10 === 2 || age % 10 === 3 || age % 10 === 4) return age + " года"
-        else return age + " лет"
-    }
-
-    student = student.student
+const Card = ({student}: { student: Student }) => {
     return (
-        <div className="studentCard" id={student.id}>
+        <div className="studentCard" id={student.id.toString()}>
             <div className="avatar">
                 <img src={student.avatar} alt="avatar"/>
             </div>
@@ -41,7 +27,7 @@ const Card = (student: any) => {
             </div>
             <ul className="list">
                 <li>
-                    <div>{ageWord(_calculateAge(student.birthday))}</div>
+                    <div>{getAgeWord(_calculateAge(student.birthday))}</div>
                 </li>
                 <li>
                     <div>{student.specialty}</div>

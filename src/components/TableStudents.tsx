@@ -1,10 +1,11 @@
 import React from 'react';
 import Row from "./Row"
-import '../tableStudents.css'
+import '../style/tableStudents.css'
 import Card from "./Card";
+import type {Student} from "../type";
 
-const TableStudents = ({filteredStudent}: any) => {
-    if (filteredStudent.length !== 0) {
+const TableStudents = ({filteredStudents}: { filteredStudents: Student[] }) => {
+    if (filteredStudents.length !== 0) {
         return (
             <>
                 <div className="listStudents">
@@ -26,13 +27,13 @@ const TableStudents = ({filteredStudent}: any) => {
                             <th scope="col" colSpan={2} style={{width: "5%"}}></th>
                         </tr>
                         </thead>
-                        {filteredStudent.map(function (student: any) {
+                        {filteredStudents.map(function (student: Student) {
                             return <Row student={student}/>
                         })}
                     </table>
                 </div>
                 <div className="cardsStudents">
-                    {filteredStudent.map(function (student: any) {
+                    {filteredStudents.map(function (student: Student) {
                         return <Card student={student}/>
                     })}
                 </div>

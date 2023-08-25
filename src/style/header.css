@@ -6,7 +6,6 @@
     border-radius: 50%;
     transform: translate(-50%, 0);
     position: absolute;
-    /*left: 9.2%;*/
     top: 3.31%;
     left: 123px;
 }
@@ -107,7 +106,6 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        /*left: 97px;*/
         left: 23px;
         margin-left: 23px;
         top: 48px;
@@ -166,7 +164,6 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        /*left: 97px;*/
         left: 23px;
         margin-left: 23px;
         top: 48px;

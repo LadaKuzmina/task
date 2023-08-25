@@ -1,20 +1,11 @@
 import React from 'react';
+import type {Student} from "../type";
+import {_calculateAge} from "../scripts/numberOfYears";
+import {deleteStudent} from "../scripts/deleteStudent";
 
-const Row = (student: any) => {
-    function _calculateAge(birthday_string: string) {
-        let birthday = new Date(birthday_string);
-        let ageDifMs = Date.now() - birthday.getTime();
-        let ageDate = new Date(ageDifMs);
-        return Math.abs(ageDate.getUTCFullYear() - 1970);
-    }
-
-    function deleteStudent(id: number) {
-        document.getElementById(id.toString())!.remove();
-    }
-
-    student = student.student
+const Row = ({student}: { student: Student }) => {
     return (
-        <tr id={student.id}>
+        <tr id={student.id.toString()}>
             <td className="avatar"><img src={student.avatar} alt="avatar"/></td>
             <td style={{
                 textAlign: "left"

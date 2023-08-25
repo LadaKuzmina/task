@@ -1,7 +1,6 @@
 .select-wrapper {
     position: relative;
     left: 1130px;
-    /*top: 242px;*/
     top: 148px;
     width: 180px;
 }
@@ -29,7 +28,7 @@
     width: 20px;
     height: 20px;
     left: 150px;
-    background: url("icons/arrow.png");
+    background: url("../icons/arrow.png");
     background-size: 100% 100%;
     pointer-events: none;
 }
@@ -58,37 +57,16 @@
     margin: 10px 5px;
     padding: 18px 20px;
     cursor: pointer;
-    /*width: 100%;*/
     border-radius: 5px;
     font-family: 'geometria_medium';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    /*background: rgba(73, 194, 232, 0.11);*/
 }
 
-/*.dropdown-item-active {*/
-/*    margin: 0;*/
-/*    padding: 18px 20px;*/
-/*    cursor: pointer;*/
-/*    width: 180px;*/
-/*    border-radius: 5px;*/
-/*    font-family: 'geometria_medium';*/
-/*    font-style: normal;*/
-/*    font-weight: 500;*/
-/*    font-size: 12px;*/
-/*    line-height: 15px;*/
-/*    background: rgba(73, 194, 232, 0.11);*/
-/*}*/
 
 @media (max-width: 1350px) {
-    /*.select-wrapper {*/
-    /*    position: relative;*/
-    /*    left: 1066px;*/
-    /*    top: 148px;*/
-    /*    width: 180px;*/
-    /*}*/
     .select-wrapper {
         position: relative;
         left: 930px;
@@ -98,12 +76,6 @@
 }
 
 @media (max-width: 1200px) {
-    /*.select-wrapper {*/
-    /*    position: relative;*/
-    /*    left: 930px;*/
-    /*    top: 148px;*/
-    /*    width: 180px;*/
-    /*}*/
     .select-wrapper {
         position: relative;
         left: 730px;
@@ -119,23 +91,9 @@
         top: 148px;
         width: 180px;
     }
-
-    /*.select-wrapper {*/
-    /*    position: relative;*/
-    /*    left: 730px;*/
-    /*    top: 148px;*/
-    /*    width: 180px;*/
-    /*}*/
 }
 
-/* Portrait tablets and small desktops */
 @media (max-width: 768px) {
-    /*.select-wrapper {*/
-    /*    position: relative;*/
-    /*    left: 535px;*/
-    /*    top: 148px;*/
-    /*    width: 180px;*/
-    /*}*/
     .select-wrapper {
         position: relative;
         width: 54px;
@@ -170,7 +128,7 @@
         width: 20px;
         height: 20px;
         left: 22px;
-        background: url("icons/arrow.png");
+        background: url("../icons/arrow.png");
         background-size: 100% 100%;
         pointer-events: none;
     }
@@ -207,11 +165,8 @@
         font-weight: 500;
         font-size: 12px;
         line-height: 15px;
-        /*background: rgba(73, 194, 232, 0.11);*/
     }
 }
-
-/* Landscape phones and smaller */
 
 @media (max-width: 480px) {
     .select-wrapper {
@@ -248,7 +203,7 @@
         width: 20px;
         height: 20px;
         left: 22px;
-        background: url("icons/arrow.png");
+        background: url("../icons/arrow.png");
         background-size: 100% 100%;
         pointer-events: none;
     }
@@ -285,6 +240,5 @@
         font-weight: 500;
         font-size: 12px;
         line-height: 15px;
-        /*background: rgba(73, 194, 232, 0.11);*/
     }
 }

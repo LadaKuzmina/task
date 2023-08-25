@@ -1,6 +1,5 @@
 .listStudents table {
     width: 1180px;
-    /*height: 615px;*/
     white-space: nowrap;
     position: absolute;
     left: 130px;
@@ -107,33 +106,6 @@
         display: none;
     }
 
-
-    /*.listStudents table {*/
-    /*    width: 1180px;*/
-    /*    !*height: 615px;*!*/
-    /*    white-space: nowrap;*/
-    /*    position: absolute;*/
-    /*    left: 70px;*/
-    /*    top: 322px;*/
-    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
-    /*    border-radius: 6px;*/
-    /*    background: transparent;*/
-    /*    margin-top: 44px;*/
-    /*}*/
-    /*.headingsTable {*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    font-family: "geometria_light";*/
-    /*    position: absolute;*/
-    /*    width: 1000px;*/
-    /*    height: 24px;*/
-    /*    left: 149px;*/
-    /*    top: 304px;*/
-    /*    align-items: center;*/
-    /*    flex-wrap: nowrap;*/
-    /*    justify-content: space-evenly;*/
-    /*    margin-top: 32px;*/
-    /*}*/
     .listStudents table {
         width: 1050px;
         /*height: 615px;*/
@@ -188,61 +160,13 @@
     }
 }
 
-/*}*/
 @media (max-width: 1200px) {
     .cardsStudents {
         display: none;
     }
 
-    /*.listStudents table {*/
-    /*    width: 1050px;*/
-    /*    !*height: 615px;*!*/
-    /*    white-space: nowrap;*/
-    /*    position: absolute;*/
-    /*    left: 70px;*/
-    /*    top: 322px;*/
-    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
-    /*    border-radius: 6px;*/
-    /*    background: transparent;*/
-    /*    margin-top: 44px;*/
-    /*}*/
-    /*.headingsTable {*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    font-family: "geometria_light";*/
-    /*    position: absolute;*/
-    /*    width: 1000px;*/
-    /*    height: 24px;*/
-    /*    left: 141px;*/
-    /*    top: 304px;*/
-    /*    align-items: center;*/
-    /*    flex-wrap: nowrap;*/
-    /*    justify-content: space-evenly;*/
-    /*    margin-top: 32px;*/
-    /*}*/
-    /*.fioHeading {*/
-    /*    position: relative;*/
-    /*    left: -77px;*/
-    /*}*/
-    /*.specializationHeading {*/
-    /*    position: relative;*/
-    /*    left: -5px;*/
-    /*}*/
-    /*.groupHeading {*/
-    /*    position: relative;*/
-    /*    left: -30px;*/
-    /*}*/
-    /*.ageHeading {*/
-    /*    position: relative;*/
-    /*    left: -40px;*/
-    /*}*/
-    /*.ratingHeading {*/
-    /*    position: relative;*/
-    /*    left: -45px;*/
-    /*}*/
     .listStudents table {
         width: 845px;
-        /*height: 615px;*/
         white-space: nowrap;
         position: absolute;
         left: 70px;
@@ -294,61 +218,13 @@
     }
 }
 
-/*!* Portrait tablets and medium desktops *!*/
 @media (max-width: 992px) {
     .cardsStudents {
         display: none;
     }
 
-    /*.listStudents table {*/
-    /*    width: 845px;*/
-    /*    !*height: 615px;*!*/
-    /*    white-space: nowrap;*/
-    /*    position: absolute;*/
-    /*    left: 70px;*/
-    /*    top: 322px;*/
-    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
-    /*    border-radius: 6px;*/
-    /*    background: transparent;*/
-    /*    margin-top: 44px;*/
-    /*}*/
-    /*.headingsTable {*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    font-family: "geometria_light";*/
-    /*    position: absolute;*/
-    /*    width: 700px;*/
-    /*    height: 24px;*/
-    /*    left: 141px;*/
-    /*    top: 304px;*/
-    /*    align-items: center;*/
-    /*    flex-wrap: nowrap;*/
-    /*    justify-content: space-evenly;*/
-    /*    margin-top: 32px;*/
-    /*}*/
-    /*.fioHeading {*/
-    /*    position: relative;*/
-    /*    left: -50px;*/
-    /*}*/
-    /*.specializationHeading {*/
-    /*    position: relative;*/
-    /*    left: 10px;*/
-    /*}*/
-    /*.groupHeading {*/
-    /*    position: relative;*/
-    /*    left: 0;*/
-    /*}*/
-    /*.ageHeading {*/
-    /*    position: relative;*/
-    /*    left: 15px;*/
-    /*}*/
-    /*.ratingHeading {*/
-    /*    position: relative;*/
-    /*    left: 20px;*/
-    /*}*/
     .listStudents table {
         width: 660px;
-        /*height: 615px;*/
         white-space: nowrap;
         position: absolute;
         left: 55px;
@@ -400,7 +276,6 @@
     }
 }
 
-/*!* Portrait tablets and small desktops *!*/
 @media (max-width: 768px) {
     .headingsTable {
         display: none;
@@ -432,9 +307,6 @@
         border-radius: 300px;
         width: 40px;
         height: 40px;
-        /*position: relative;*/
-        /*top: 16px;*/
-        /*left: 16px;*/
     }
 
     .avatar {
@@ -532,56 +404,6 @@
         position: relative;
         top: -61px;
     }
-
-    /*.cardsStudents {*/
-    /*    display: none;*/
-    /*}*/
-    /*.listStudents table {*/
-    /*    width: 660px;*/
-    /*    !*height: 615px;*!*/
-    /*    white-space: nowrap;*/
-    /*    position: absolute;*/
-    /*    left: 55px;*/
-    /*    top: 322px;*/
-    /*    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);*/
-    /*    border-radius: 6px;*/
-    /*    background: transparent;*/
-    /*    margin-top: 44px;*/
-    /*}*/
-    /*.headingsTable {*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    font-family: "geometria_light";*/
-    /*    position: absolute;*/
-    /*    width: 500px;*/
-    /*    height: 24px;*/
-    /*    left: 141px;*/
-    /*    top: 304px;*/
-    /*    align-items: center;*/
-    /*    flex-wrap: nowrap;*/
-    /*    justify-content: space-evenly;*/
-    /*    margin-top: 32px;*/
-    /*}*/
-    /*.fioHeading {*/
-    /*    position: relative;*/
-    /*    left: -35px;*/
-    /*}*/
-    /*.specializationHeading {*/
-    /*    position: relative;*/
-    /*    left: 10px;*/
-    /*}*/
-    /*.groupHeading {*/
-    /*    position: relative;*/
-    /*    left: 0;*/
-    /*}*/
-    /*.ageHeading {*/
-    /*    position: relative;*/
-    /*    left: 15px;*/
-    /*}*/
-    /*.ratingHeading {*/
-    /*    position: relative;*/
-    /*    left: 10px;*/
-    /*}*/
 }
 
 @media (max-width: 480px) {
@@ -615,9 +437,6 @@
         border-radius: 300px;
         width: 40px;
         height: 40px;
-        /*position: relative;*/
-        /*top: 16px;*/
-        /*left: 16px;*/
     }
 
     .avatar {

@@ -1,7 +1,6 @@
 import * as React from 'react';
-import {render} from "react-dom";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import "./index.css"
+import "./style/index.css"
 import {createRoot} from "react-dom/client";
 import List from "./components/List";
 

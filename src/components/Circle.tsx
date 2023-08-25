@@ -1,5 +1,5 @@
 import * as React from 'react';
-import "../header.css"
+import "../style/header.css"
 
 const Circle = () => {
     return (

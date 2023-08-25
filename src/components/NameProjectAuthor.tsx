@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NameProjectAuthor = ({nameProject, userName, by}: { nameProject: string, userName: string, by:string }) => {
+const NameProjectAuthor = ({nameProject, userName, by}: { nameProject: string, userName: string, by: string }) => {
     return (
         <div>
             <div className="author">
